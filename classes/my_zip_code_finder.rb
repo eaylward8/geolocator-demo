@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 class MyZipCodeFinder
-  # contrived example to make this work
+  # contrived example to make this demo work
   # realistically, use a gem that provides an interface to geolocation APIs
   ZIP_COORDINATES = {
     19107 => [39.95, -75.16],  # philly

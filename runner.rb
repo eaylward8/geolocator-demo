@@ -4,7 +4,7 @@ require_relative './classes/closest_zip_finder'
 
 require 'pry-byebug'
 
-# only zips that work with this simple example
+# only zips that work with this contrived example
 zip_codes = [
   19107, # philly
   10012, # new york
@@ -14,14 +14,14 @@ zip_codes = [
 ]
 
 # coordinates to test against
-boston = [42.36, -71.059]
+boston = [42.36, -71.06]
 dc = [38.90, -77.04]
-pittsburgh = [40.44, -79.99]
 houston = [29.76, -95.37]
+sydney = [-33.87, 151.21]
 
 czf = ClosestZipFinder.new
 
 puts "Closest to Boston: #{czf.closest_zip(zip_codes, boston)}"
 puts "Closest to DC: #{czf.closest_zip(zip_codes, dc)}"
-puts "Closest to Pittsburgh: #{czf.closest_zip(zip_codes, pittsburgh)}"
 puts "Closest to Houston: #{czf.closest_zip(zip_codes, houston)}"
+puts "Closest to Sydney: #{czf.closest_zip(zip_codes, sydney)}"
