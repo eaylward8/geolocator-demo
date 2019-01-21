@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
 require_relative '../../classes/closest_zip_finder'
-require 'pry-byebug'
 
 RSpec.describe ClosestZipFinder do
   subject { described_class.new }

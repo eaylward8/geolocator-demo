@@ -2,8 +2,6 @@ require_relative './classes/my_zip_code_finder'
 require_relative './classes/distance_finder'
 require_relative './classes/closest_zip_finder'
 
-require 'pry-byebug'
-
 # only zips that work with this contrived example
 zip_codes = [
   19107, # philly
