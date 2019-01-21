@@ -3,5 +3,5 @@
 source 'https://rubygems.org'
 
 gem 'haversine'
-gem 'pry-byebug'
+# gem 'pry-byebug'
 gem 'rspec'
